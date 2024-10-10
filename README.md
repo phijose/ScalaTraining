@@ -8,11 +8,8 @@ Loops and Functions
 Stars
 
 *
-
 *  *
-
 *  *  * 
-
 *  *  *  * 
 
 Even
