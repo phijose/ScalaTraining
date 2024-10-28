@@ -9,8 +9,11 @@ lazy val root = (project in file("."))
   )
 
 val sparkVersion = "3.5.1"
+val hadoopVersion = "3.3.6"
 
 libraryDependencies ++=Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
-  "org.apache.spark" %% "spark-sql" % sparkVersion
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
+  "org.apache.hadoop" % "hadoop-common" % hadoopVersion,
+  "org.apache.hadoop" % "hadoop-client" % hadoopVersion
 )
